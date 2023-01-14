@@ -125,34 +125,35 @@ padding: 12px 20px;
     font-size: 44px;
     text-align: center;
   }
-.about-section img {
+  
+.content-conteiner img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-.about-section {
+.content-conteiner {
   padding: 0;
 }
 
 }
 
-.about-section {
+.content-conteiner {
   padding: 120px 20px;
 }
 
-.about-section h1 {
+.content-conteiner h1 {
 font-size: 64px;
 line-height: 80px;
 }
-.about-section h2 {
+.content-conteiner h2 {
 font-size: 20px;
 }
-.about-section p {
+.content-conteiner p {
 font-size: 18px;
 font-family: var(--defult-font-family);
 }
-.about-section a {
+.content-conteiner a {
 font-size: 18px;
 font-family: var(--defult-font-family);
 text-align: center;
@@ -165,7 +166,7 @@ margin-left: auto;
   border-radius: 3%;
 }
 
-.about-section-content {
+.container {
   margin: 30px;
 }
 
