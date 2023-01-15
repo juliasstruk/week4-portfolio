@@ -39,7 +39,9 @@ h2 {
   color: var(--second-color);
   font-size: 44px;
 }
-
+h4 {
+font-size: 26px;
+}
 
 a {
   text-decoration: none;
@@ -47,10 +49,7 @@ a {
   color: var(--primary-color);
   font-size: 18px;
   font-weight: 500;
-  margin: 5px;
-  padding: 5px;
   border-radius: 2px;
-  background-color: white;
 }
 a:visited {
   color: rgb(25, 88, 88);
@@ -58,18 +57,22 @@ a:visited {
 
 a:hover {
   background-color: var(--second-color);
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .contact {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  margin: 10px;
+  padding-left: 10px;
 }
 
 #contactme {
   box-shadow: var(--box-shadow);
   background-color: deeppink;
-  color: white;
+   color: white;
 }
 
 .textcols {
@@ -114,12 +117,22 @@ line-height: 27px;
 padding: 12px 20px;
 }
 
+.btn-footer {
+  background-color: var(--primary-color);
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 15px 20px;
+}
+
 .logo {
   max-height: 40px;
 }
 
 nav {
 padding: 20px 20px;
+margin-right: 40px;
 }
 
 nav ul {
@@ -134,14 +147,11 @@ line-height: 42px;
 margin-left: 15px;
 }
 
-
-
 nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out ;
 }
-
 
 nav a:hover, nav li.active a {
 color: var(--primary-color)
@@ -207,3 +217,45 @@ margin-left: auto;
   margin: 30px;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .social-links a {
+margin: 0 20px;
+color: var(--primary-color);
+background-color: var(--second-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+footer .email-link {
+text-decoration: none;
+color: black;
+font-size: 24px;
+}
+
+footer .email-link:hover {
+color: var(--primary-color);
+}
+
+footer.contact-box {
+padding: 30px;
+}
+
+footer.contact-box p {
+  margin: 0;
+}
+
+.contact-box {
+  background-color: #ffe0f9;
+  padding: 20px;
+
+}
