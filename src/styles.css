@@ -57,8 +57,6 @@ a:visited {
 
 a:hover {
   background-color: var(--second-color);
-  margin-top: 20px;
-  padding: 10px;
 }
 
 .contact {
